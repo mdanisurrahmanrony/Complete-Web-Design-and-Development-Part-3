@@ -1,0 +1,23 @@
+.mydiv{
+	width:150px;
+	height:150px;
+	background-color:red;
+	
+	-webkit-animation-name: abdul;
+	animation-name: abdul;
+	
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	
+	-webkit-animation-iteration-count: 3;
+	animation-iteration-count: 3;
+}
+
+@-webkit-keyframes abdul{
+	from{background-color:red}
+	to{background-color:green;border-radius:50%}
+}
+@keyframes abdul{
+	from{background-color:red}
+	to{background-color:green;border-radius:50%}
+}

@@ -1,0 +1,33 @@
+#menu{
+	padding:0;
+	list-style-type:none;
+	width:960px;
+	background:#4E4E4E;
+	border-bottom:5px solid orange;
+	min-height:38px;
+	margin:0 auto;
+}
+#menu li{
+	float:left;
+	border-right:1px solid #605B5B;
+	border-left:1px solid #2B2A2A;
+	
+}
+
+#menu li:last-child{
+	border-right:none;
+}
+#menu li:first-child{
+	border-left:none;
+}
+#menu li a{
+	color:#fff;
+	text-decoration:none;
+	background:#4E4E4E;
+	padding:10px 20px;
+	display:block;
+	transition:0.3s all ease;
+}
+#menu li a:hover{
+	background:orange;
+}

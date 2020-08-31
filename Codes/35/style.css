@@ -1,0 +1,23 @@
+table{
+	width:650px;
+	text-align:center;
+	margin:50px auto;
+	background-color:#ddd;
+
+}
+table, th, td{
+	border-collapse:collapse;
+	border:2px solid red;	
+}
+.table_left{text-align:left}
+.id3{
+	background-color:#008000;
+	color:#fff;
+}
+.blue{
+	background-color:blue;
+	color:white;
+}
+table caption{
+	background-color:#ddd
+}

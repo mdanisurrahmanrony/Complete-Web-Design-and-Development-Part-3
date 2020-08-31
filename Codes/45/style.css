@@ -1,0 +1,22 @@
+.block1{
+	width:200px;
+	height:200px;
+	background-color:red;
+	margin:500px;
+	-o-transition: all 2s cubic-bezier(0, 0, 0.12, 0.94);
+	-moz-transition: all 2s cubic-bezier(0, 0, 0.12, 0.94);
+	-webkit-transition: all 2s cubic-bezier(0, 0, 0.12, 0.94);
+	transition: all 2s cubic-bezier(0, 0, 0.12, 0.94);
+}
+.block1:hover{
+	background-color:green;
+	/*width:300px;*/
+	/*height:300px;*/
+	
+	/*transform:rotate(360deg);*/
+	/*transform:skewX(20deg);*/
+	/*transform:skewY(20deg);*/
+	
+	-webkit-transform:scale(1.5,3);
+	transform:scale(1.5,3);
+}

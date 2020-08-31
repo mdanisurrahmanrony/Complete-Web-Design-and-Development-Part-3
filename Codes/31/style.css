@@ -1,0 +1,11 @@
+p{
+	background-image:url("img/flower.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+/*
+background-repeat:repeat-x;
+background-repeat:repeat-y;
+background-size:cover;
+background-size:250px 150px;
+*/

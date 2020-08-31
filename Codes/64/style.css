@@ -1,0 +1,33 @@
+.mydiv{
+	width:150px;
+	height:150px;
+	background-color:red;
+	position:relative;
+	
+	
+	-webkit-animation-name: abdul;
+	animation-name: abdul;
+	
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+	
+	-webkit-animation-direction:alternate;
+	animation-direction:alternate;
+}
+
+
+@-webkit-keyframes abdul{
+	from{left:0}
+	to{left:200px;}
+}
+
+@keyframes abdul{
+	from{left:0}
+	to{left:200px;}
+}

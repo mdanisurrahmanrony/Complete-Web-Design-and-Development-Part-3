@@ -1,0 +1,14 @@
+.mybtn{
+	width:150px;
+	height:45px;
+	border-radius:15px;
+	font-size:20px;
+	padding:5px;
+	color:#000;
+	transition:all 1s ease;
+}
+.mybtn:hover{
+	color:#fff;
+	background:#000;
+	cursor:pointer;
+}

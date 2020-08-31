@@ -1,0 +1,38 @@
+.mydiv{
+	width:150px;
+	height:150px;
+	background-color:red;
+	position:relative;
+	
+	
+	-webkit-animation-name: abdul;
+	animation-name: abdul;
+	
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+	
+	-webkit-animation-direction:reverse;
+	animation-direction:reverse;
+}
+
+
+@-webkit-keyframes abdul{
+	0%{left:0;top:0; background:red}
+	25%{left:200px;top:0; background:green}
+	50%{left:200px;top:200px; background:yellow}
+	75%{left:0;top:200px; background:blue}
+	100%{left:0;top:0; background:red}
+}
+@keyframes abdul{
+	0%{left:0;top:0; background:red}
+	25%{left:200px;top:0; background:green}
+	50%{left:200px;top:200px; background:yellow}
+	75%{left:0;top:200px; background:blue}
+	100%{left:0;top:0; background:red}
+}

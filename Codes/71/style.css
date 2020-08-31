@@ -1,0 +1,15 @@
+#menu{
+	padding:0;
+}
+#menu li{
+	display:inline;
+}
+#menu li a{
+	color:#fff;
+	text-decoration:none;
+	background:#000;
+	padding:10px 20px;
+}
+#menu li a:hover{
+	background:orange;
+}

@@ -1,0 +1,13 @@
+.mydiv{
+	width:800px;
+	height:150px;
+	
+	
+	background:-o-linear-gradient(right, red, green, blue, yellow);
+	
+	background:-moz-linear-gradient(right, red, green, blue, yellow);
+	
+	background:-webkit-linear-gradient(right, red, green, blue, yellow);
+	
+	background:linear-gradient(to right, red, green, blue, yellow);
+}

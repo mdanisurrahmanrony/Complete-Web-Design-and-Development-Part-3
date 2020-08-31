@@ -1,0 +1,11 @@
+.mydiv{
+	width:800px;
+	height:150px;
+	
+	
+background: rgb(59,103,158); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(59,103,158,1) 0%, rgba(43,136,217,1) 31%, rgba(32,124,202,1) 66%, rgba(125,185,232,1) 71%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 31%,rgba(32,124,202,1) 66%,rgba(125,185,232,1) 71%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 31%,rgba(32,124,202,1) 66%,rgba(125,185,232,1) 71%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
